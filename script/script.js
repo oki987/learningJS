@@ -46,7 +46,7 @@ favColor = 'czerwony' //nie nazwywamy nazwy zmiennej po polsku*/
 
 //TYPES OF DATA
 
-
+//String
 /*const text = 'to jest sobie taki tekst'
 
 console.log(text.length)
@@ -72,7 +72,7 @@ console.log(newName)*/
     split()
     toLowerCase()-
     toUpperCase()-
-*/
+
  
 const text1 = 'powiększ mnie!'
 const text2 = 'ZAPISZ MNIE MAŁYMI LITERAMI'
@@ -88,4 +88,42 @@ console.log(text3.slice(6))
 console.log(text4.includes('czy'))
 console.log(text5.charAt(2))
 console.log(text6.replaceAll('pies','kot'))
-console.log(text7.split(','))
+console.log(text7.split(','))*/
+
+//Number
+/*const num1 = 23
+const num2 = "45dfgvg"
+console.log(num1+num2) //konkatenacja (doklejanie)
+console.log(num2*1) //NIE ROBIMY TEGO
+
+const num3 = 1234.5676
+
+console.log(num3.toFixed(2)) //zaokrąglanie
+
+console.log(parseInt(num2))*/
+
+//Boolean
+// if(1){
+//     console.log("TRUE")
+// }else{
+//     console.log("FALSE")
+// }
+
+//Null i undifined
+
+//Objects and function
+const colors = ['red','green','blue']
+console.log(colors)
+
+function test(){
+    console.log('Siema tu funkcja')
+}
+test()
+
+const person={
+    name: 'LOL',
+    age: 18,
+    favColor: null
+}
+
+console.log(person)
